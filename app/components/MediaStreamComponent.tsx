@@ -124,7 +124,7 @@ const MediaStreamComponent: React.FC = () => {
         </label>
         <br />
         <button onClick={getCameraStream}>Get Capture</button>
-        <button onClick={stopStream}>Delete Capture Source</button>
+        <button onClick={stopStream}>Delete Capture</button>
       </div>
     </div>
   );
