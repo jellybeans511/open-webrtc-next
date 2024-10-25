@@ -81,9 +81,9 @@ const MediaStreamComponent: React.FC = () => {
             <input type="radio" name="stream-type" value="screen" />
           </label>
         </form>
-        <label>
+        <label  className="custom-border">
           Select Device:
-          <select onChange={handleDeviceChange} value={selectedDeviceId}>
+          <select onChange={handleDeviceChange} value={selectedDeviceId}  className="custom-border">
             <option value="default">(Default Camera)</option>
             <option value="false">(None)</option>
             {devices.map(device => (
